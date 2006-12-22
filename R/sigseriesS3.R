@@ -198,8 +198,7 @@
 # deltat.signalSeries
 ###
 
-"deltat.signalSeries" <- function(x, ...)
-  deltat(as(positions(x),"numeric"))
+"deltat.signalSeries" <- function(x, ...) positions(x)@by
 
 ###
 # diff.signalSeries

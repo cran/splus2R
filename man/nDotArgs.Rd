@@ -25,8 +25,7 @@ the number of ... arguments in the call to the
 function which calls \code{nDotArgs}.
 }
 \seealso{
-\code{\link{nargs}}.
-}
+\code{\link{nargs}}.}
 
 \examples{
 myfun <- function(..., a=4) nDotArgs(...)

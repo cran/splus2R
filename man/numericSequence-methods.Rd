@@ -86,8 +86,7 @@ Supported (generic) methods include:
 \item{which.na}{Find NA entries in the sequence}}
 }
 \seealso{
-\code{\link{signalSeries}}.
-}
+\code{\link{signalSeries}}.}
 
 \keyword{methods}
 

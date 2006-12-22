@@ -80,8 +80,7 @@ S3 style methods include as.numeric and as.vector.}
 \item{summary}{Sumamrize the series object}}
 }
 \seealso{
-\code{\link{numericSequence}}.
-}
+\code{\link{numericSequence}}.}
 
 \keyword{methods}
 

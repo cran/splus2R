@@ -33,9 +33,7 @@ and it always returns an object of the same class as \code{x}
 (that is, it does not support a drop argument).
 }
 \seealso{
-\code{\link{as.data.frame}},
-\code{\link{matrix}}.
-}
+\code{\link{as.data.frame}}, \code{\link{matrix}}.}
 
 \examples{
 x <- 1:10

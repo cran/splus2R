@@ -76,28 +76,7 @@ otherwise.}
 corresponding summary by row or by column.
 }
 \seealso{
-\code{\link{anyMissing}},
-\code{\link{as.rectangular}},
-\code{\link{deparseText}},
-\code{\link{ifelse1}},
-\code{\link{is.numeric.atomic.vector}},
-\code{\link{is.rectangular}},
-\code{\link{is.missing}},
-\code{\link{is.zero}},
-\code{\link{lowerCase}},
-\code{\link{oldUnclass}},
-\code{\link{numCols}},
-\code{\link{numRows}},
-\code{\link{peaks}},
-\code{\link{positions}},
-\code{\link{rowIds}},
-\code{\link{rmvnorm}},
-\code{\link{stdev}},
-\code{\link{subscript2d}},
-\code{\link{upperCase}},
-\code{\link{vecnorm}},
-\code{\link{which.na}}.
-}
+\code{\link{anyMissing}}, \code{\link{as.rectangular}}, \code{\link{deparseText}}, \code{\link{ifelse1}}, \code{\link{is.numeric.atomic.vector}}, \code{\link{is.rectangular}}, \code{\link{is.missing}}, \code{\link{is.zero}}, \code{\link{lowerCase}}, \code{\link{oldUnclass}}, \code{\link{numCols}}, \code{\link{numRows}}, \code{\link{peaks}}, \code{\link{positions}}, \code{\link{rowIds}}, \code{\link{rmvnorm}}, \code{\link{stdev}}, \code{\link{subscript2d}}, \code{\link{upperCase}}, \code{\link{vecnorm}}, \code{\link{which.na}}.}
 
 \examples{
 ## create a matrix, add dimensions, and obtain 

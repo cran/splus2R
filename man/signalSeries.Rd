@@ -74,8 +74,7 @@ generated as a numeric sequence with the right length to match the
 data.
 }
 \seealso{
-\code{\link{numericSequence}}.
-}
+\code{\link{numericSequence}}.}
 
 \keyword{classes}
 

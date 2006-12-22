@@ -37,34 +37,7 @@ not used, and x and y are vectors the same length as test.}
 with three arguments, one of x or y. With k arguments, one of arguments 2, 4, ..., k-1, k.
 }
 \seealso{
-\code{\link{anyMissing}},
-\code{\link{as.rectangular}},
-\code{\link{colIds}},
-\code{\link{colMaxs}},
-\code{\link{colMedians}},
-\code{\link{colMins}},
-\code{\link{colRanges}},
-\code{\link{colStdevs}},
-\code{\link{colVars}},
-\code{\link{deparseText}},
-\code{\link{is.rectangular}},
-\code{\link{is.missing}},
-\code{\link{is.zero}},
-\code{\link{lowerCase}},
-\code{\link{oldUnclass}},
-\code{\link{numCols}},
-\code{\link{numRows}},
-\code{\link{peaks}},
-\code{\link{positions}},
-\code{\link{rowIds}},
-\code{\link{rowMaxs}},
-\code{\link{rmvnorm}},
-\code{\link{stdev}},
-\code{\link{subscript2d}},
-\code{\link{upperCase}},
-\code{\link{vecnorm}},
-\code{\link{which.na}}.
-}
+\code{\link{anyMissing}}, \code{\link{as.rectangular}}, \code{\link{colIds}}, \code{\link{colMaxs}}, \code{\link{colMedians}}, \code{\link{colMins}}, \code{\link{colRanges}}, \code{\link{colStdevs}}, \code{\link{colVars}}, \code{\link{deparseText}}, \code{\link{is.rectangular}}, \code{\link{is.missing}}, \code{\link{is.zero}}, \code{\link{lowerCase}}, \code{\link{oldUnclass}}, \code{\link{numCols}}, \code{\link{numRows}}, \code{\link{peaks}}, \code{\link{positions}}, \code{\link{rowIds}}, \code{\link{rowMaxs}}, \code{\link{rmvnorm}}, \code{\link{stdev}}, \code{\link{subscript2d}}, \code{\link{upperCase}}, \code{\link{vecnorm}}, \code{\link{which.na}}.}
 
 \examples{
 ifelse1(TRUE, "cat", "dog")
