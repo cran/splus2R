@@ -2,7 +2,7 @@
 # Make functions S4 generic
 ###
 
-setGeneric("as.data.frame")
+#setGeneric("as.data.frame")
 setGeneric("as.numeric")
 setGeneric("as.vector")
 setGeneric("duplicated")
@@ -10,7 +10,7 @@ setGeneric("match")
 setGeneric("mean")
 setGeneric("median")
 setGeneric("ncol")
-setGeneric("nrow")
+#setGeneric("nrow")
 setGeneric("plot")
 setGeneric("quantile")
 setGeneric("rev")
@@ -20,7 +20,6 @@ setGeneric("sort")
 #setGeneric("sort.list")
 setGeneric("unique")
 setGeneric("which.na")
-
 
 ###
 # Class: numericSequence
@@ -273,7 +272,7 @@ setMethod("sort", signature(x = "numericSequence"),
 
 #setMethod("sort.list", signature(x = "numericSequence"),
 #  # I tried letting the argument list be (x, ...).  That failed.
-#  function(x, partial = NULL, na.last = TRUE, decreasing = FALSE, 
+#  function(x, partial = NULL, na.last = TRUE, decreasing = FALSE,
 #    method = c("shell", "quick", "radix")){
 #    # sort.list method for a numericSequence object
 #    # ... may include decreasing - pass that to sort
