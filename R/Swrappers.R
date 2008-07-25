@@ -19,7 +19,6 @@
 # is.missing
 # is.numeric.atomic.vector
 # is.rectangular
-# is.zero
 # lowerCase
 # numCols
 # numRows
@@ -318,13 +317,6 @@ rowVars <- function(x, na.rm = FALSE, dims = 1, unbiased = TRUE, SumSquares = FA
 }
 
 ###
-# is.zero
-###
-
-"is.zero" <- function(x)
-  is.numeric(x) && x == 0.
-
-###
 # lowerCase
 # upperCase
 ###
@@ -393,7 +385,9 @@ rowVars <- function(x, na.rm = FALSE, dims = 1, unbiased = TRUE, SumSquares = FA
   s <- span %/% 2
   v <- max.col(z) == 1 + s
   z <- c(rep(FALSE,s),v)
-  c(z[1:(length(z)-s)], rep(FALSE,span-1))
+  ans <- c(z[1:(length(z)-s)], rep(FALSE,span-1))
+  nx <- NCOL(x)
+  if (nx>1) matrix(ans, ncol=nx) else ans
 }
 
 ###

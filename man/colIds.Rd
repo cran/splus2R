@@ -1,12 +1,3 @@
-%%  WARNING: This file was automatically generated from the associated 
-%%  Swrappers.mid file. Do NOT edit this Rd file to make a change. Instead, 
-%%  edit the Swrappers.mid file in the project MID directory. Once the 
-%%  Swrappers.mid file has been updated, this Rd file, and all other 
-%%  documentation (such as corresponding LaTeX, SGML and HTML documentation) 
-%%  should be regenerated using the mid.pl Perl script. 
-
-%% R documentation for the colIds, colMaxs, colMedians, colMins, colRanges, colStdevs, colVars, rowIds, rowMaxs, rowMins, rowRanges, rowStdevs, rowVars functions
-
 \name{colIds}
 \alias{colIds}
 \alias{colMaxs}
@@ -21,7 +12,7 @@
 \alias{rowRanges}
 \alias{rowStdevs}
 \alias{rowVars}
-\title{Coumn and row summary function}
+\title{Column and row summary function}
 \concept{splus}
 \usage{colIds(x, do.NULL=TRUE, prefix="col")
 colMaxs(x, na.rm = FALSE, dims = 1, n = NULL)
@@ -75,8 +66,6 @@ otherwise.}
 \value{
 corresponding summary by row or by column.
 }
-\seealso{
-\code{\link{anyMissing}}, \code{\link{as.rectangular}}, \code{\link{deparseText}}, \code{\link{ifelse1}}, \code{\link{is.numeric.atomic.vector}}, \code{\link{is.rectangular}}, \code{\link{is.missing}}, \code{\link{is.zero}}, \code{\link{lowerCase}}, \code{\link{oldUnclass}}, \code{\link{numCols}}, \code{\link{numRows}}, \code{\link{peaks}}, \code{\link{positions}}, \code{\link{rowIds}}, \code{\link{rmvnorm}}, \code{\link{stdev}}, \code{\link{subscript2d}}, \code{\link{upperCase}}, \code{\link{vecnorm}}, \code{\link{which.na}}.}
 
 \examples{
 ## create a matrix, add dimensions, and obtain 

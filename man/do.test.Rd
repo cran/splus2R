@@ -72,6 +72,10 @@ do.test(file, verbose=FALSE, strict=FALSE, local=FALSE, check)
   certain components or attributes from the comparison the function
   \code{all.equal.excluding} is useful.  This is defined in the examples
   below.
+
+  Each test should run silently if everything is working correctly;
+  there should be nothing printed.  \code{\link{expectWarnings}} can
+  be used to intercept \code{\link{warning}} statements.
 }
 \value{
 NULL

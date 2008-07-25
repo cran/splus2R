@@ -1,12 +1,3 @@
-%%  WARNING: This file was automatically generated from the associated 
-%%  sigseries.mid file. Do NOT edit this Rd file to make a change. Instead, 
-%%  edit the sigseries.mid file in the project MID directory. Once the 
-%%  sigseries.mid file has been updated, this Rd file, and all other 
-%%  documentation (such as corresponding LaTeX, SGML and HTML documentation) 
-%%  should be regenerated using the mid.pl Perl script. 
-
-%% R documentation for the numericSequence-methods function
-
 \name{numericSequence-methods}
 \alias{numericSequence-methods}
 \docType{methods}

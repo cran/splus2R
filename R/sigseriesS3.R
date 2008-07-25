@@ -169,11 +169,13 @@
 # as.data.frame.signalSeries
 ###
 
-"as.data.frame.signalSeries" <- function(x, ...)
+"as.data.frame.signalSeries" <-
+  function (x, row.names = NULL, optional = FALSE, ...) 
 {
-  z <- as.data.frame(x@data, ...)
-  row.names(z) <- as(x@positions, "character")
-  z
+  as.data.frame(x@data,
+                row.names = if(is.null(row.names))
+                as(x@positions, "character") else row.names,
+                optional = optional, ...)
 }
 
 ###
@@ -187,9 +189,9 @@
 # cumsum.signalSeries
 ###
 
-"cumsum.signalSeries" <- function(x,...)
+"cumsum.signalSeries" <- function(x)
 {
-   data <- cumsum(x@data,...)
+   data <- cumsum(x@data)
    x@data <- data
    x
 }

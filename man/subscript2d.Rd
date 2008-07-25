@@ -1,12 +1,3 @@
-%%  WARNING: This file was automatically generated from the associated 
-%%  Swrappers.mid file. Do NOT edit this Rd file to make a change. Instead, 
-%%  edit the Swrappers.mid file in the project MID directory. Once the 
-%%  Swrappers.mid file has been updated, this Rd file, and all other 
-%%  documentation (such as corresponding LaTeX, SGML and HTML documentation) 
-%%  should be regenerated using the mid.pl Perl script. 
-
-%% R documentation for the subscript2d, subscript2d.data.frame, subscript2d.default, subscript2d.matrix functions
-
 \name{subscript2d}
 \alias{subscript2d}
 \alias{subscript2d.data.frame}
