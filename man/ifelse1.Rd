@@ -3,11 +3,11 @@
 \title{Conditional Data Selection}
 \concept{splus}
 \usage{ifelse1(test, x, y, ...)}
-\description{This is equivalent to {if(test) x else y} . The main
+\description{This is equivalent to \code{if(test) x else y} . The main
 advantage of using this function is better formatting, and a more
 natural syntax when the result is being assigned; see examples below.
 
-With 5 arguments, this is equivalent to {if(test1) x else if(test2) u
+With 5 arguments, this is equivalent to \code{if(test1) x else if(test2) u
 else v} (where arguments are given by name, not position).
 
 In ifelse1, is.numeric.atomic.vector, test should be a single value, and the calculations for y

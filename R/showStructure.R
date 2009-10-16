@@ -15,11 +15,11 @@ function(x, maxlen=20, describeAttributes=TRUE, short=NULL,
   #         are being printed, use & instead of $ or @
 
   # This function has not been tested with all kinds of objects,
-  # 
+  #
 
   if(is.environment(x)){
-    cat(prefix,"environment",
-	if(class(x)[1] != "environment") paste("of class",class(x)[1]),
+    cat(prefix, "environment",
+	if(class(x)[1] != "environment") paste("of class", class(x)[1]),
 	"\n")
     return(invisible(NULL))
   }
@@ -35,7 +35,7 @@ function(x, maxlen=20, describeAttributes=TRUE, short=NULL,
   #  -- none if !describeAttributes,
   #  -- otherwise everything but names and dimnames
   if(describeAttributes){
-    ax1 <- ax[match(c("names","dimnames"), names(ax), nomatch=0)]
+    ax1 <- ax[match(c("names", "dimnames"), names(ax), nomatch=0)]
     if(!is.recursive(x)) ax1$names <- NULL
     ax2 <- ax
     ax2$names <- NULL
@@ -62,15 +62,15 @@ function(x, maxlen=20, describeAttributes=TRUE, short=NULL,
   # Loop over list components or slots
   if(!attri){
     if(mode(x) == "numeric" && is.null(dim(x)) && len == 1)
-      cat(prefix,"scalar",sep="")
+      cat(prefix, "scalar", sep="")
     else if(is.null(x))
-      cat(prefix,"NULL")
+      cat(prefix, "NULL")
     else {
-      cat(prefix, mode(x),"[",sep="")
+      cat(prefix, mode(x), "[", sep="")
       if(is.null(dim(x)))
 	cat(" length", len)
       else
-	cat(dim(x),sep=",")
+	cat(dim(x), sep=",")
       cat("]")
     } # Don't print "\n" yet.
 
@@ -83,7 +83,7 @@ function(x, maxlen=20, describeAttributes=TRUE, short=NULL,
         cat("  S3 class:", oldClass(x), "\n")
       else
         cat("  class:", class(x), "\n")
-    } 
+    }
   }
 
   # Attributes
@@ -94,7 +94,12 @@ function(x, maxlen=20, describeAttributes=TRUE, short=NULL,
 	   prefix = prefix, describeAttributes=TRUE, attri=TRUE,
            short=short, ...)
 
-  nn <- slotNames(x)
+  # work around bug in slotNames, for a character string (as of R 2.7.0)
+  nn <- ifelse1(identical(class(x), "character") && length(x) == 1,
+                character(0),
+                is.element(".S3Class", slotNames(x)),
+                NULL,
+                slotNames(x))
   slotted <- length(nn) && !is.element(class(x)[1], c("named", "structure"))
   if(!slotted){
     nn <- names(x)
@@ -103,20 +108,23 @@ function(x, maxlen=20, describeAttributes=TRUE, short=NULL,
   }
   if(S4 || (is.list(ux) && len)){
     if(len <= maxlen){
-      nn[nn==""] <- (1:len)[nn==""]
+      nn[nn == ""] <- (1:len)[nn == ""]
       nn <- format(nn, justify="left")
       for(i in 1:len){
 	cat(prefix,
             ifelse1(attri, " &", S4 || slotted, " @", " $"),
 	    nn[i], " ", sep="")
-	Recall(ifelse1(S4, slot(x,slotNames(x)[i]), ux[[i]]),
+	Recall(ifelse1(S4, slot(x, slotNames(x)[i]), ux[[i]]),
 	       maxlen = if(length(maxlen) > 1) maxlen[-1] else maxlen,
-	       prefix = paste(prefix,"  ",sep=""),
+	       prefix = paste(prefix, "  ", sep=""),
 	       describeAttributes=describeAttributes, short=short, ...)
       }
     } else {
       cat(prefix, "length > maxlen,",
-          ifelse1(!slotted && is.null(names(x)), "No names", c("names= ",nn)),
+          ifelse1(!slotted && is.null(names(x)), "No names",
+                  c("names= ", ifelse1(len > 100,
+                                       c(nn[1:100], "...(more than 100)"),
+                                       nn))),
           "\n")
     }
   }
