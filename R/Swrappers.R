@@ -383,7 +383,7 @@ rowVars <- function(x, na.rm = FALSE, dims = 1, unbiased = TRUE, SumSquares = FA
   z <- embed(rev(as.vector(x)), dim=span)
   z <- z[rev(seq(nrow(z))),]
   s <- span %/% 2
-  v <- max.col(z, ties.method="first") == 1 + s
+  v <- max.col(z) == 1 + s
   z <- c(rep(FALSE,s),v)
   ans <- c(z[1:(length(z)-s)], rep(FALSE,span-1))
   nx <- NCOL(x)

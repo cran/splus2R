@@ -32,10 +32,6 @@ function(file, verbose = FALSE, strict = FALSE, local = FALSE, check)
 	"Class:", class(file), "----\n") else {
     cat("------- Test file:", file, "---------\n")
   }
-  if (is.R()) { # Need this so parse keeps a copy of the source
-    oldKeepSource <- options(keep.source = TRUE)
-    on.exit(options(oldKeepSource))
-  }
   E <- parse(file = file, n = -1)
   # For R, printing expressions that fail would miss comments;
   # comments are stored with source text in an attribute "srcref".
