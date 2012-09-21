@@ -374,7 +374,7 @@ setMethod("summary", "signalSeries", function(object, ...)
   {
     ret <- paste(format(dimnames(tab)[[2]]), ":",  format(tab),
       "  ", sep = "")
-    length(ret) <- newlxen
+    length(ret) <- newlen
     ret
   }
 
@@ -501,14 +501,16 @@ setMethod("Math2","signalSeries",function(x, digits)
   x@data <- asSeriesData(callGeneric(x@data, digits))
 })
 
+## There is no .Internal(sum()) in R: it is primitive!
+## Altered in an NMU 2012-09-21
+
 ## TODO: The following doesn't work for some reason
 setMethod("Summary","signalSeries", function(x, ..., na.rm=FALSE)
-  .Internal(sum(..., na.rm = na.rm))
- )
+  sum(..., na.rm = na.rm))
 
 setMethod("min","signalSeries", function(x, ..., na.rm=FALSE)
   min(as(x,"numeric"), ..., na.rm=na.rm))
 
 setMethod("sum","signalSeries", function(x, ..., na.rm=FALSE)
-  .Internal(sum(x@data, ..., na.rm = na.rm)))
+  sum(x@data, ..., na.rm = na.rm))
 
