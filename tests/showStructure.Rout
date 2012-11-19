@@ -1,5 +1,5 @@
 
-R Under development (unstable) (2012-09-19 r60762) -- "Unsuffered Consequences"
+R version 2.15.2 (2012-10-26) -- "Trick or Treat"
 Copyright (C) 2012 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
 Platform: x86_64-unknown-linux-gnu (64-bit)
@@ -54,6 +54,8 @@ list[ length 2]  class: list
  $b   numeric[3,3]  class: matrix 
 > showStructure(g)  # prints with @ rather than $
 S4[ length 2]  S4 class: track 
+ @x   numeric[ length 5]  class: integer 
+ @y   numeric[ length 5]  class: integer 
 > showStructure(list(a=a, b=b))
 list[ length 2]  class: list 
  $a   numeric[ length 2]  class: numeric 
@@ -79,6 +81,8 @@ list[ length 3]  class: list
 list[ length 2]  class: list 
  $a   numeric[ length 2]  class: numeric 
  $g   S4[ length 2]  S4 class: track 
+   @x     numeric[ length 5]  class: integer 
+   @y     numeric[ length 5]  class: integer 
 > 
 > if(!is.R()){
 +   g2 <- signalSeries(data.frame(x = 11:20, y = 21:30), 1:10,
@@ -93,6 +97,8 @@ list[ length 2]  class: list
 + }
 S4[ length 2]  S4 class: track 
  &fish   character[ length 1]  class: character 
+ @x   numeric[ length 5]  class: integer 
+ @y   numeric[ length 5]  class: integer 
 > 
 > if(is.R()){
 +   # More objects, from help(typeof)
@@ -118,4 +124,4 @@ function[ length 1]  class: function
 > 
 > proc.time()
    user  system elapsed 
-  0.985   0.047   1.034 
+   1.03    0.03    1.13 

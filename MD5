@@ -1,4 +1,4 @@
-a0e92ffeebdde9ef08213d9748cfcf7d *DESCRIPTION
+2cddfcc928cd9e8f4da73ab06c6916a9 *DESCRIPTION
 c5c7ae85b75c60e40c50ca554edc64b5 *NAMESPACE
 8accff6f9a6bd26a0c8f1622297f76da *R/Swrappers.R
 4d7ce9bf1f6f694f8ca13fcf9490f8b2 *R/bits.per.integer.R
@@ -6,7 +6,7 @@ d7c5c20cfa41072fb78a9b644bd98586 *R/doTest.R
 c63481d6da48163a0a8fdbc9122f4b67 *R/muS2RC.R
 2071848b7a455fbe066dab498dd50277 *R/showStructure.R
 15dc96f4daf7aec35cb63e5d2da5c59b *R/sigseriesS3.R
-46aabaca3c6b29ce461696a78e8da3b3 *R/sigseriesS4.R
+979967fdb202181124111e2632816f04 *R/sigseriesS4.R
 2a98a59c0c17e0576942911731da5af4 *R/splus2R_is.R
 e0b807668c59d923542ddffb2a72715f *R/splus2R_pkg.R
 92cadd0c0be1617586eacbf31efe339d *demo/00Index
@@ -55,7 +55,7 @@ ac1bf848e8b853668455ea20d431b534 *tests/all.equal.excluding.t
 1f6b7b24fa2ccc883fdb6dd86585877d *tests/do.test.t
 cd7a2a1af579db3710312af64157b1e2 *tests/readme-texts.txt
 3079bc4431509ab4b2239c58a723e14d *tests/showStructure.R
-29aaed342f379cf21f4792c89b555707 *tests/showStructure.Rout.save
+9947e0e1c24aa120a7f3649ab909f7a3 *tests/showStructure.Rout
 162e9b471e23914208232a58db2e36e3 *tests/stops.t
 d33863fac13867e63dbc20514eb87323 *tests/test1.R
 fbe79c23bb0186129adf35e98e465d02 *tests/test2.R

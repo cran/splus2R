@@ -501,7 +501,7 @@ setMethod("Math2","signalSeries",function(x, digits)
   x@data <- asSeriesData(callGeneric(x@data, digits))
 })
 
-## There is no .Internal(sum()) in R: it is primitive!
+## There is no dotInternal(sum()) in R: it is primitive!
 ## Altered in an NMU 2012-09-21
 
 ## TODO: The following doesn't work for some reason
