@@ -88,9 +88,7 @@ NULL
   \code{\link{expectWarnings}},
   \code{\link{identical}},
   \code{\link{Quote}},
-  \code{\link{unname}}.
-  An extensive set of examples is available at
-  \url{http://www.insightful.com/Hesterberg/bootstrap/resampleLoop.zip}
+  \code{\link{unname}}
 }
 \examples{
 \dontrun{

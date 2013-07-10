@@ -23,7 +23,6 @@
 # numCols
 # numRows
 # oldUnclass
-# peaks
 # positions
 # rmvnorm
 # rowIds
@@ -372,22 +371,6 @@
   ## `class'.
   oldClass(x) <- NULL
   x
-}
-
-###
-# peaks
-###
-
-"peaks" <- function(x, span=3, strict=TRUE)
-{
-  z <- embed(rev(as.vector(x)), dimension = span)
-  z <- z[rev(seq(nrow(z))),]
-  s <- span %/% 2
-  v <- max.col(z) == 1 + s
-  z <- c(rep(FALSE,s),v)
-  ans <- c(z[1:(length(z)-s)], rep(FALSE,span-1))
-  nx <- NCOL(x)
-  if (nx>1) matrix(ans, ncol=nx) else ans
 }
 
 ###

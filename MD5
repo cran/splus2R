@@ -1,9 +1,11 @@
-2cddfcc928cd9e8f4da73ab06c6916a9 *DESCRIPTION
-c5c7ae85b75c60e40c50ca554edc64b5 *NAMESPACE
-8accff6f9a6bd26a0c8f1622297f76da *R/Swrappers.R
+5dbccff7397e1c984d456b945967191c *DESCRIPTION
+fecf5cabc5814080552062fca0a3c21f *NAMESPACE
+1789b992984e8ebc49ecaef4734badbc *NEWS
+e04e9d917e69ba8db49edb93a2415cec *R/Swrappers.R
 4d7ce9bf1f6f694f8ca13fcf9490f8b2 *R/bits.per.integer.R
 d7c5c20cfa41072fb78a9b644bd98586 *R/doTest.R
 c63481d6da48163a0a8fdbc9122f4b67 *R/muS2RC.R
+158ab0fa2b42dfe8aac0c795450b05a2 *R/peaks.R
 2071848b7a455fbe066dab498dd50277 *R/showStructure.R
 15dc96f4daf7aec35cb63e5d2da5c59b *R/sigseriesS3.R
 979967fdb202181124111e2632816f04 *R/sigseriesS4.R
@@ -21,9 +23,9 @@ f5460942eec1bc9b51026871e858e151 *man/asSeriesData.Rd
 aa8dac87084a0d17e00df6ad7aeeb4d2 *man/bits.per.integer.Rd
 a3a9afe1615d77b480cef5daa4f63f4f *man/colIds.Rd
 043056812c4059ab22aebdefa817f49a *man/deparseText.Rd
-9a74b5d11260d4c7908046dc260cca18 *man/do.test.Rd
+2d296e4123eb762545e1793e35846783 *man/do.test.Rd
 b9b58afa8afa269de1bedd1778a53c77 *man/expectStop.Rd
-0dc112fbe343a85a12a179303c84e37f *man/ifelse1.Rd
+cf73c06304abb0944eb2b5735eca99d7 *man/ifelse1.Rd
 cdb20e47ac0e40cc6de52ccd70a1ebb3 *man/is.inf.Rd
 4a5e424ce70f7f8aa1c4e7a6c9355422 *man/is.missing.Rd
 48e060348a45e2da940a87d7807c734e *man/is.number.Rd
@@ -49,6 +51,7 @@ e2f8f8e8a15b9e4922f53684ca2c83df *man/signalSeries-methods.Rd
 457c2259f7209e2280f28aba68c655c8 *man/subscript2d.Rd
 1bb0d933128a816d58d1aaeaf7dc3da8 *man/vecnorm.Rd
 df3cee7b4c88b74cb6bd7e3f20145013 *man/which.na.Rd
+3fdd4be3b4507296600caa8d814c0905 *src/peaks.f
 ac1bf848e8b853668455ea20d431b534 *tests/all.equal.excluding.t
 2f96a1599bf9b7c0e203d34eb9ecc00a *tests/allTrue.t
 4ddc7754e3e5b686df63a1f62eef7d9c *tests/createObjects.t
