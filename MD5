@@ -1,5 +1,5 @@
-5dbccff7397e1c984d456b945967191c *DESCRIPTION
-fecf5cabc5814080552062fca0a3c21f *NAMESPACE
+37cf70c0353cba032e4f27d9bfd6c141 *DESCRIPTION
+bc80e9b8b46901b8005b7197b3cb8a81 *NAMESPACE
 1789b992984e8ebc49ecaef4734badbc *NEWS
 e04e9d917e69ba8db49edb93a2415cec *R/Swrappers.R
 4d7ce9bf1f6f694f8ca13fcf9490f8b2 *R/bits.per.integer.R
@@ -11,6 +11,7 @@ c63481d6da48163a0a8fdbc9122f4b67 *R/muS2RC.R
 979967fdb202181124111e2632816f04 *R/sigseriesS4.R
 2a98a59c0c17e0576942911731da5af4 *R/splus2R_is.R
 e0b807668c59d923542ddffb2a72715f *R/splus2R_pkg.R
+dff91844450861054c15ff9fdded604a *README.md
 92cadd0c0be1617586eacbf31efe339d *demo/00Index
 3af6ec4ebe247eedf03d9643afa2394a *demo/do.test.R
 3d73b432e2f9b63131e708a8086b2bab *inst/doc/signalSeries.txt
