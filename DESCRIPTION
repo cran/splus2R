@@ -1,6 +1,6 @@
 Package: splus2R
 Title: Supplemental S-PLUS Functionality in R
-Version: 1.2-1
+Version: 1.2-2
 Author: William Constantine, Tim Hesterberg, Knut Wittkowski, Tingting
         Song, Stephen Kaluzny
 Maintainer: Stephen Kaluzny <skaluzny@tibco.com>
@@ -15,6 +15,6 @@ Collate: Swrappers.R peaks.R bits.per.integer.R doTest.R muS2RC.R
         showStructure.R sigseriesS3.R sigseriesS4.R splus2R_is.R
         splus2R_pkg.R
 NeedsCompilation: yes
-Packaged: 2016-05-20 04:16:48 UTC; billconstantine
 Repository: CRAN
-Date/Publication: 2016-05-20 22:37:07
+Packaged: 2016-08-30 20:29:23 UTC; spk
+Date/Publication: 2016-09-02 15:17:06

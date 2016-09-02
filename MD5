@@ -1,4 +1,4 @@
-37cf70c0353cba032e4f27d9bfd6c141 *DESCRIPTION
+b5cdde970cd5464455cbfafd5f236114 *DESCRIPTION
 bc80e9b8b46901b8005b7197b3cb8a81 *NAMESPACE
 1789b992984e8ebc49ecaef4734badbc *NEWS
 e04e9d917e69ba8db49edb93a2415cec *R/Swrappers.R
@@ -52,7 +52,7 @@ e2f8f8e8a15b9e4922f53684ca2c83df *man/signalSeries-methods.Rd
 457c2259f7209e2280f28aba68c655c8 *man/subscript2d.Rd
 1bb0d933128a816d58d1aaeaf7dc3da8 *man/vecnorm.Rd
 df3cee7b4c88b74cb6bd7e3f20145013 *man/which.na.Rd
-3fdd4be3b4507296600caa8d814c0905 *src/peaks.f
+4eee98eb1eb7afc71ed6b879ba9ffcf5 *src/peaks.f
 ac1bf848e8b853668455ea20d431b534 *tests/all.equal.excluding.t
 2f96a1599bf9b7c0e203d34eb9ecc00a *tests/allTrue.t
 4ddc7754e3e5b686df63a1f62eef7d9c *tests/createObjects.t
