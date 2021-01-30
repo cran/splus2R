@@ -1,11 +1,11 @@
-b5cdde970cd5464455cbfafd5f236114 *DESCRIPTION
-bc80e9b8b46901b8005b7197b3cb8a81 *NAMESPACE
-1789b992984e8ebc49ecaef4734badbc *NEWS
+9a0db6523d6a91cc9628fc55c58238ad *DESCRIPTION
+0a8f961a57f4ac9a387c846934ac0e0a *NAMESPACE
+836b0010841006089083153383f42120 *NEWS
 e04e9d917e69ba8db49edb93a2415cec *R/Swrappers.R
 4d7ce9bf1f6f694f8ca13fcf9490f8b2 *R/bits.per.integer.R
 d7c5c20cfa41072fb78a9b644bd98586 *R/doTest.R
 c63481d6da48163a0a8fdbc9122f4b67 *R/muS2RC.R
-158ab0fa2b42dfe8aac0c795450b05a2 *R/peaks.R
+3a3f440ccfa9697746fab4ef15e529d6 *R/peaks.R
 2071848b7a455fbe066dab498dd50277 *R/showStructure.R
 15dc96f4daf7aec35cb63e5d2da5c59b *R/sigseriesS3.R
 979967fdb202181124111e2632816f04 *R/sigseriesS4.R
@@ -39,7 +39,7 @@ cdb20e47ac0e40cc6de52ccd70a1ebb3 *man/is.inf.Rd
 e1eeffff22f3225fd617f1596a4ec1bf *man/numericSequence-methods.Rd
 e866fb99f370c43484d25542986522fd *man/numericSequence.Rd
 e033f0e7aec725f5ee349a7e43908a1b *man/oldUnclass.Rd
-d5f1bada03691c8d14881fb544a64b2b *man/peaks.Rd
+b9e207e970420759d49a20169c34e9ea *man/peaks.Rd
 245c2a6fa0137076ca4faea72388940e *man/positions.Rd
 12ec246d628ccf4f798ee6d568258cd9 *man/rmvnorm.Rd
 ae04cfb6ff208a3c1ced24963bce331d *man/seriesData.Rd
@@ -52,7 +52,8 @@ e2f8f8e8a15b9e4922f53684ca2c83df *man/signalSeries-methods.Rd
 457c2259f7209e2280f28aba68c655c8 *man/subscript2d.Rd
 1bb0d933128a816d58d1aaeaf7dc3da8 *man/vecnorm.Rd
 df3cee7b4c88b74cb6bd7e3f20145013 *man/which.na.Rd
-4eee98eb1eb7afc71ed6b879ba9ffcf5 *src/peaks.f
+134fd95e26cab494372e6bb2d864e13e *src/cpeaks.c
+4d9e52109629e5f9b653de717b7b7b38 *src/init.c
 ac1bf848e8b853668455ea20d431b534 *tests/all.equal.excluding.t
 2f96a1599bf9b7c0e203d34eb9ecc00a *tests/allTrue.t
 4ddc7754e3e5b686df63a1f62eef7d9c *tests/createObjects.t
