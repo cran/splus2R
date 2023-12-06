@@ -1,6 +1,6 @@
-9a0db6523d6a91cc9628fc55c58238ad *DESCRIPTION
+c6f39085b5e62d1e8b8e4fe1b43455a0 *DESCRIPTION
 0a8f961a57f4ac9a387c846934ac0e0a *NAMESPACE
-836b0010841006089083153383f42120 *NEWS
+34f3a9f859c04f7a3cbb4c87e3fc3569 *NEWS
 e04e9d917e69ba8db49edb93a2415cec *R/Swrappers.R
 4d7ce9bf1f6f694f8ca13fcf9490f8b2 *R/bits.per.integer.R
 d7c5c20cfa41072fb78a9b644bd98586 *R/doTest.R
@@ -34,7 +34,7 @@ cdb20e47ac0e40cc6de52ccd70a1ebb3 *man/is.inf.Rd
 991cb4b0e48008dc57afbdbc2d05ec85 *man/is.orderable.Rd
 788eaa8f7af4d8693e67df0c8797d819 *man/is.rectangular.Rd
 6801e90e6bc676a50285c430ae78a5cf *man/lowerCase.Rd
-088b34df1e8c3d7f46760820947fe343 *man/nDotArgs.Rd
+8e53371d496c08d5832c47bddb5c0cf1 *man/nDotArgs.Rd
 445677dfae937914dfdaaa07fc853e1b *man/numCols.Rd
 e1eeffff22f3225fd617f1596a4ec1bf *man/numericSequence-methods.Rd
 e866fb99f370c43484d25542986522fd *man/numericSequence.Rd
@@ -59,8 +59,6 @@ ac1bf848e8b853668455ea20d431b534 *tests/all.equal.excluding.t
 4ddc7754e3e5b686df63a1f62eef7d9c *tests/createObjects.t
 1f6b7b24fa2ccc883fdb6dd86585877d *tests/do.test.t
 cd7a2a1af579db3710312af64157b1e2 *tests/readme-texts.txt
-3079bc4431509ab4b2239c58a723e14d *tests/showStructure.R
-9947e0e1c24aa120a7f3649ab909f7a3 *tests/showStructure.Rout
 162e9b471e23914208232a58db2e36e3 *tests/stops.t
 d33863fac13867e63dbc20514eb87323 *tests/test1.R
 fbe79c23bb0186129adf35e98e465d02 *tests/test2.R
