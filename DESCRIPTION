@@ -1,6 +1,6 @@
 Package: splus2R
 Title: Supplemental S-PLUS Functionality in R
-Version: 1.3-4
+Version: 1.3-5
 Authors@R: c(person("William", "Constantine", role=c("aut")),
   person("Tim", "Hesterberg", role=c("aut")),
   person("Knut", "Wittkowski", role=c("ctb")),
@@ -21,7 +21,7 @@ Collate: Swrappers.R peaks.R bits.per.integer.R doTest.R muS2RC.R
         showStructure.R sigseriesS3.R sigseriesS4.R splus2R_is.R
         splus2R_pkg.R
 NeedsCompilation: yes
-Packaged: 2023-12-06 02:38:58 UTC; spk
+Packaged: 2024-02-18 01:59:26 UTC; spk
 Author: William Constantine [aut],
   Tim Hesterberg [aut],
   Knut Wittkowski [ctb],
@@ -30,4 +30,4 @@ Author: William Constantine [aut],
   Stephen Kaluzny [ctb, cre]
 Maintainer: Stephen Kaluzny <spkaluzny@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-12-06 06:00:02 UTC
+Date/Publication: 2024-02-18 05:30:02 UTC
